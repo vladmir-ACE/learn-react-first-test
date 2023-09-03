@@ -1,9 +1,11 @@
+import Titre from "../../components/titre/titre";
 import "./Home.css";
 function Home() {
     return(
         <div className="bg"> 
-          <h1>Home page</h1>    
+          <Titre text="TITRE HOME" condition={true} />
+
          </div>
     );
 }
-export default Home;
+export default Home;  

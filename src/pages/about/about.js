@@ -1,9 +1,9 @@
 import "./about.css";
-
+import Titre from "../../components/titre/titre";
 function About() {
     return(
         <div className="ab"> 
-          <h1>About page</h1>    
+          <Titre text="ABOUT TITRE"/>
          </div>
     );
 }
