@@ -4,7 +4,7 @@ function Home() {
     return(
         <div className="bg"> 
           <Titre text="TITRE HOME" condition={true} />
-
+          
          </div>
     );
 }
